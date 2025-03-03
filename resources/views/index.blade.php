@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ai Customer Assistant</title>
+    <title>Laravel Live Chat</title>
 
 
     {{-- Css --}}
@@ -50,26 +50,16 @@
 
                     <div class="card" id="chat1" style="border-radius: 15px;">
                         <div class="card-header d-flex justify-content-between align-items-center p-3 bg-info text-white border-bottom-0"
-                            style="border-top-left-radius: 15px; border-top-right-radius: 15px;">
+                            style="border-top-left-radius: 15px; border-top-right-radius: 15px; ">
                             <i class="fas fa-angle-left"></i>
                             <p class="mb-0 fw-bold">Live chat</p>
                             <i class="fas fa-times"></i>
                         </div>
                         <div class="card-body chat">
 
-                            <div class="d-flex flex-row justify-content-start mb-4">
-                                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava1-bg.webp"
-                                    alt="avatar 1" style="width: 45px; height: 100%;">
-                                <div class="p-3 ms-3"
-                                    style="border-radius: 15px; background-color: rgba(57, 192, 237,.2);">
-                                    <p class="small mb-0">Hello and thank you for visiting MDBootstrap. Please click the
-                                        video
-                                        below.</p>
-                                </div>
-                            </div>
 
                             <div class="messages">
-                                @include('receive', ['message' => 'Hello, I need help with my order.'])
+                                @include('receive', ['message' => 'Heyyy, Whatsupp!!!'])
                             </div>
 
 
